@@ -1,0 +1,114 @@
+2023-06-06 13:29:04:294 [undefined] function () {
+    var env = process.env.NODE_ENV || 'development';
+    var isDevelopment = env === 'development';
+    return isDevelopment ? 'debug' : 'warn';
+}: [32mThis is a info log[39m
+2023-06-06 13:36:19:3619 [32minfo[39m: [32mThis is a info log[39m
+2023-06-06 13:38:17:3817 info: This is a info log
+2023-06-06 13:47:57:4757 info: Email Sent success to mail vipul.khanna@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-06 13:49:34:4934 info: Email Sent success to mail vipul.khanna@fiftyfivetech.iot from vipulkhanna33@gmail.com
+2023-06-06 13:49:55:4955 info: Email Sent success to mail vipul.khanna@fiftyfivetech.iot from vipulkhanna33@gmail.com
+2023-06-06 13:50:43:5043 info: Email Sent success to mail vipul.khanna@fiftyfive.io from vipulkhanna33@gmail.com
+2023-06-06 13:53:36:5336 error: Email Sent success to mail vipul.khanna@fiftyfive.io from vipulkhanna33@gmail.com
+2023-06-06 14:05:32:532 info: Email Sent success to mail vipul.khanna@fiftyfive.io from vipulkhanna33@gmail.com
+2023-06-06 16:51:18:5118 info: Email Sent success to mail vipul.khanna@fiftyfive.io from vipulkhanna33@gmail.com
+2023-06-06 16:51:19:5119 info: Email Sent success to mail vipul.khanna@fiftyfive.io from vipulkhanna33@gmail.com
+2023-06-06 16:52:32:5232 info: Email Sent success to mail vipul.khanna@fiftyfive.io from vipulkhanna33@gmail.com
+2023-06-06 16:54:47:5447 info: Email Sent success to mail vipul.khanna@fiftyfive.io from vipulkhanna33@gmail.com
+2023-06-06 16:55:30:5530 info: Email Sent success to mail vipul.khanna@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-06 17:15:48:1548 info: Email Sent success to mail vipul.khanna@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-06 17:15:48:1548 info: Email Sent success to mail vipul.khanna@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-06 17:48:03:483 info: Email Sent success to mail vipul.khanna@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-06 17:48:48:4848 info: Email Sent successfully to vipul.khanna@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-06 17:49:19:4919 info: Email Sent to vipul.khanna@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-07 16:39:17:3917 info: Email Sent successfully to vipul.khanna@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-07 16:39:17:3917 info: Email Sent successfully to vipul.khanna@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-07 17:13:10:1310 info: Email Sent successfully to vipul.khanna@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-07 17:24:43:2443 info: Email Sent successfully to vipul.khanna@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-07 17:25:46:2546 info: Email Sent successfully to vipul.khanna@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-07 18:14:52:1452 info: Email Sent successfully to vipul.khanna@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-08 10:44:49:4449 info: Email Sent successfully to sameer.srivastava@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-08 10:44:53:4453 info: Email Sent successfully to vipul.khanna@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-08 10:47:11:4711 info: Email Sent successfully to sameer.srivastava@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-08 10:47:12:4712 info: Email Sent successfully to vipul.khanna@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-08 10:47:27:4727 info: Email Sent successfully to sameer.srivastava@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-08 10:51:13:5113 info: Email Sent successfully to sameer.srivastava@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-08 10:51:14:5114 info: Email Sent successfully to vipul.khanna@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-08 10:51:19:5119 info: Email Sent successfully to sameer.srivastava@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-08 10:51:38:5138 info: Email Sent successfully to sameer.srivastava@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-08 10:51:39:5139 info: Email Sent successfully to vipul.khanna@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-08 10:51:41:5141 info: Email Sent successfully to sameer.srivastava@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-08 10:52:06:526 info: Email Sent successfully to sameer.srivastava@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-08 10:52:47:5247 info: Email Sent successfully to sammy.srivastava@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-08 10:53:04:534 info: Email Sent successfully to sameer.srivastava@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-08 10:53:05:535 info: Email Sent successfully to sameer.srivastava@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-08 10:53:05:535 info: Email Sent successfully to sameer.srivastava@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-08 10:53:07:537 info: Email Sent successfully to vipul.khanna@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-08 10:53:08:538 info: Email Sent successfully to sammy.srivastava@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-08 10:53:08:538 info: Email Sent successfully to sammy.srivastava@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-08 10:53:49:5349 info: Email Sent successfully to sammy.srivastava@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-08 10:55:27:5527 info: Email Sent successfully to sammy.srivastava@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-08 11:25:45:2545 info: Email Sent successfully to sammy.srivastava@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-08 11:26:17:2617 info: Email Sent successfully to sammy1.srivastava@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-08 11:30:04:304 info: Email Sent successfully to sammy1.srivastava@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-08 11:31:15:3115 info: Email Sent successfully to sammy1.srivastava@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-08 13:08:58:858 info: Email Sent successfully to sammy1.srivastava@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-08 13:15:00:150 info: running a task every minute
+2023-06-08 15:25:12:2512 info: Email Sent successfully to sammy1.srivastava@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-08 15:26:24:2624 info: Email Sent successfully to sammy1.srivastava@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-08 15:26:32:2632 info: Email Sent successfully to sammy1.srivastava@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-08 15:39:50:3950 info: Email Sent successfully to sammy1.srivastava@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-08 15:40:06:406 info: Email Sent successfully to sammy1.srivastava@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-08 17:36:03:363 http: POST /sendNotification 404 156 - 0.648 ms
+
+2023-06-08 17:37:12:3712 http: POST /createExchange 422 34 - 2.288 ms
+
+2023-06-08 17:39:09:399 http: POST /createExchange 422 34 - 2.175 ms
+
+2023-06-08 17:40:02:402 http: POST /createExchange 422 34 - 3.165 ms
+
+2023-06-08 17:40:19:4019 error: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received undefined
+2023-06-08 17:40:19:4019 http: POST /createExchange 500 128 - 51.101 ms
+
+2023-06-08 17:41:49:4149 http: POST /createExchange 200 37 - 58.627 ms
+
+2023-06-08 17:41:59:4159 info: Email Sent successfully to sammy1.srivastava@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-08 18:37:28:3728 http: POST /createExchange 404 154 - 1.092 ms
+
+2023-06-08 18:37:59:3759 http: POST /createExchange 404 154 - 0.971 ms
+
+2023-06-08 18:38:13:3813 http: POST /deliverMail 200 37 - 55.235 ms
+
+2023-06-08 18:38:23:3823 info: Email Sent successfully to vipul.khanna@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-08 18:41:58:4158 http: POST /deliverMail 200 37 - 54.857 ms
+
+2023-06-08 18:42:07:427 info: Email Sent successfully to sammy1.srivastava@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-08 18:42:17:4217 http: POST /deliverMail 200 37 - 57.415 ms
+
+2023-06-08 18:42:27:4227 info: Email Sent successfully to sammy1.srivastava@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-08 18:43:27:4327 http: POST /deliverMail 200 37 - 56.230 ms
+
+2023-06-08 18:43:35:4335 info: Email Sent successfully to sammy1.srivastava@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-08 18:44:35:4435 http: POST /deliverMail 200 37 - 50.847 ms
+
+2023-06-08 18:44:43:4443 info: Email Sent successfully to vipul.khanna@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-08 18:45:11:4511 http: POST /deliverMail 200 37 - 52.119 ms
+
+2023-06-08 18:45:18:4518 info: Email Sent successfully to vipul.khanna@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-08 18:55:50:5550 http: POST /deliverMail 200 37 - 51.999 ms
+
+2023-06-08 18:56:00:560 info: Email Sent successfully to vipul.khanna@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-08 18:58:27:5827 http: POST /deliverMail 200 37 - 57.507 ms
+
+2023-06-08 18:58:34:5834 info: Email Sent successfully to vipul.khanna@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-08 18:59:22:5922 http: POST /deliverMail 200 37 - 57.620 ms
+
+2023-06-08 18:59:29:5929 info: Email Sent successfully to vipul.khanna@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-08 19:00:25:025 http: POST /deliverMail 200 37 - 51.339 ms
+
+2023-06-08 19:00:32:032 info: Email Sent successfully to vipul.khanna@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-08 19:00:50:050 http: POST /deliverMail 200 37 - 52.489 ms
+
+2023-06-08 19:00:57:057 info: Email Sent successfully to vipul.khanna@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-08 19:03:28:328 http: POST /deliverMail 422 34 - 0.230 ms
+
