@@ -16,25 +16,3 @@ const mail = async (req: Request, res: Response) => {
 };
 
 export default mail;
-
-{
-  /// VALIDATION
-  // notification type
-  // get the template
-  // get the keys required to fill the above template
-  // check if all the keys are present in the request
-  // if validation fails
-  // return error
-  // if validation passes
-  // enter data in channel
-}
-
-{
-  // notification type
-  // template
-  // fill the template
-  // get the subject based notification type
-  // fill the subject string using the interpolation
-  // SMTP CALLLL
-  // DONE
-}

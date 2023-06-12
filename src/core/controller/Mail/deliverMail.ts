@@ -7,9 +7,9 @@ templates;
 const Email = async () => {
   const rabbitMQConnection = await amqp.connect(amqpData.url);
   const channel = await rabbitMQConnection.createChannel();
-  await channel.assertExchange(amqpData.exchangeName, "direct");
+  await channel.assertExchange(amqpData.exchangeName!, "direct");
   const createQueue = await channel.assertQueue("MessageQueue");
-  await channel.bindQueue(createQueue.queue, amqpData.exchangeName, "");
+  await channel.bindQueue(createQueue.queue, amqpData.exchangeName!, "");
 
   channel.consume(createQueue.queue, (msg) => {
     if (msg !== null) {
@@ -18,15 +18,19 @@ const Email = async () => {
 
       sendMail(
         request[mailData].subject(
-          messageData.notificationSubjectMetaData.hasOwnProperty("subject")
-            ? messageData.notificationSubjectMetaData.subject
+          messageData.hasOwnProperty("notificationSubjectMetaData")
+            ? messageData.notificationSubjectMetaData.hasOwnProperty("subject")
+              ? messageData.notificationSubjectMetaData.subject
+              : undefined
             : undefined
         ),
         request[mailData].text,
         templates(
           request[mailData].body(
-            messageData.notificationBodyMetaData.hasOwnProperty("name")
-              ? messageData.notificationBodyMetaData.name
+            messageData.hasOwnProperty("notificationBodyMetaData")
+              ? messageData.notificationBodyMetaData.hasOwnProperty("name")
+                ? messageData.notificationBodyMetaData.name
+                : undefined
               : undefined
           )
         ),

@@ -112,3 +112,42 @@
 2023-06-08 19:00:57:057 info: Email Sent successfully to vipul.khanna@fiftyfivetech.io from vipulkhanna33@gmail.com
 2023-06-08 19:03:28:328 http: POST /deliverMail 422 34 - 0.230 ms
 
+2023-06-08 19:11:45:1145 http: POST /deliverMail 200 37 - 51.262 ms
+
+2023-06-08 19:11:53:1153 info: Email Sent successfully to vipul.khanna@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-08 19:12:16:1216 http: POST /deliverMail 200 37 - 46.742 ms
+
+2023-06-08 19:12:23:1223 info: Email Sent successfully to vipul.khanna@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-08 19:12:47:1247 http: POST /deliverMail 200 37 - 52.217 ms
+
+2023-06-09 10:52:50:5250 info: Email Sent successfully to vipul.khanna@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-09 10:53:45:5345 http: POST /deliverMail 200 37 - 53.042 ms
+
+2023-06-09 10:53:58:5358 info: Email Sent successfully to vipul.khanna@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-09 10:54:24:5424 http: POST /deliverMail 200 37 - 53.091 ms
+
+2023-06-09 10:54:33:5433 info: Email Sent successfully to vipul.khanna@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-09 10:55:46:5546 http: POST /deliverMail 200 37 - 51.176 ms
+
+2023-06-09 10:56:00:560 info: Email Sent successfully to sameer.srivastava@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-12 15:37:04:374 http: POST /deliverMail 200 37 - 61.607 ms
+
+2023-06-12 15:37:11:3711 info: Email Sent successfully to bhavesh.agarwal@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-12 15:39:06:396 http: POST /deliverMail 200 37 - 56.914 ms
+
+2023-06-12 15:39:12:3912 info: Email Sent successfully to bhavesh.agarwal@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-12 15:46:54:4654 http: POST /deliverMail 200 37 - 57.911 ms
+
+2023-06-12 15:47:01:471 info: Email Sent successfully to vipul.khanna@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-12 15:49:56:4956 http: POST /deliverMail 200 37 - 56.167 ms
+
+2023-06-12 15:50:03:503 info: Email Sent successfully to vipul.khanna@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-12 15:55:31:5531 http: POST /deliverMail 200 37 - 52.539 ms
+
+2023-06-12 15:55:36:5536 info: Email Sent successfully to sameer.srivastava@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-12 15:56:48:5648 http: POST /deliverMail 200 37 - 52.470 ms
+
+2023-06-12 15:56:54:5654 info: Email Sent successfully to sameer.srivastava@fiftyfivetech.io from vipulkhanna33@gmail.com
+2023-06-12 15:58:59:5859 http: POST /deliverMail 200 37 - 61.340 ms
+
+2023-06-12 15:59:05:595 info: Email Sent successfully to sameer.srivastava@fiftyfivetech.io from mail@gmail.com

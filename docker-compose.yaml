@@ -1,0 +1,33 @@
+version: "3.1"
+services:
+  rabbitmq:
+    image: rabbitmq:latest
+    restart: always
+    networks:
+      - backend
+    ports:
+      - "5672:5672" # RabbitMQ default port
+      - "15672:15672" # RabbitMQ management UI port
+  node:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000" # Port used by your Node.js application
+    environment:
+      PORT: 8000
+      URL:  amqp://rabbitmq
+      EXCHANGENAME: mailExchange
+      MAIL_EMAIL: vipul.khanna@fiftyfivetech.io
+      MAIL_PASSWORD:  euzczykbvovhtabc
+      EMAIL_FROM: mail@gmail.com
+      MAIL_HOST:  smtp.gmail.com
+      MAIL_PORT:  587
+      MAIL_SERVICE: gmail
+    depends_on:
+      - rabbitmq
+    networks:
+      - backend
+networks:
+  backend:
+    driver: bridge
